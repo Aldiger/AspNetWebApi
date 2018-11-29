@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assecor.WebApi", "Assecor.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assecor.WebApi.Tests", "Assecor.WebApi.Tests\Assecor.WebApi.Tests.csproj", "{AD8591B9-3E91-485B-AA67-AD479987FDD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assecor.Services", "Assecor.Services\Assecor.Services.csproj", "{703E267E-CFE6-4AF1-8B80-CB0BD60EB59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assecor.Data", "Assecor.Data\Assecor.Data.csproj", "{46572906-C9C5-4196-9202-C4AD25ABCF59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AD8591B9-3E91-485B-AA67-AD479987FDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD8591B9-3E91-485B-AA67-AD479987FDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD8591B9-3E91-485B-AA67-AD479987FDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703E267E-CFE6-4AF1-8B80-CB0BD60EB59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703E267E-CFE6-4AF1-8B80-CB0BD60EB59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703E267E-CFE6-4AF1-8B80-CB0BD60EB59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703E267E-CFE6-4AF1-8B80-CB0BD60EB59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46572906-C9C5-4196-9202-C4AD25ABCF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46572906-C9C5-4196-9202-C4AD25ABCF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46572906-C9C5-4196-9202-C4AD25ABCF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46572906-C9C5-4196-9202-C4AD25ABCF59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

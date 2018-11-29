@@ -1,24 +1,31 @@
-﻿using System;
+﻿using Assecor.Services.Interfaces;
+using Assecor.Services.Services;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
+
 
 namespace Assecor.WebApi.Controllers
 {
-    public class ValuesController : ApiController
+
+    public class PersonController : ApiController
     {
+        public IColorService _colorService { get; set; }
+        public IPersonService _personService { get; set; }
+        //public PersonController(IColorService colorService)
+        //{
+        //    _colorService = colorService;
+        //}
         // GET api/values
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
-        public string Get(int id)
+        [Route("api/color/{colors}")]
+        public IHttpActionResult GetColors(string colors)
         {
-            return "value";
+            dynamic result = _colorService.GetColors();
+            return Ok(result);
         }
 
         // POST api/values
